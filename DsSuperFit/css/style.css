@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --color-white: #FFFFFF;
+    --color-red: #F03C42;
+    --bg-blue: #222374;
+    --bg-gray: #CCCCCC;
+    --bg-black: #000000;
+}
+
+nav{
+    height: 100px;
+    background-color: var(--color-red);
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+
+}
+
+#space{
+    background-color: var(--bg-blue);
+    width: 100%;
+    height: 418px;
+}
+
+#modalities{
+    background-color: var(--color-white);
+    height: 880px;
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container a, a:hover{
+    text-decoration: none;
+    color: unset;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav img{
+    padding: 10px;
+}
+
+.section-title{
+    color: var(--color-white);
+    padding: 20px 0;
+}
+
+.section-subTitle{
+    background-color: var(--bg-gray);
+    height: 127px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.section-subTitle h3 {
+    padding: 20px;
+}
+
+.section-subTitle p{
+    padding: 0 20px 20px;
+    font-size: 14px;
+}
+
+.modalities-title{
+    color: var(--color-red);
+    padding: 20px 0;
+}
+
+.modalities-options{
+    background-color: var(--bg-blue);
+    height: 106px;
+    border-radius: 8px;
+    color: var(--color-white);
+    margin: 20px 0;
+}
+
+.modalities-options h3{
+    padding: 20px;
+}
+
+.modalities-options p{
+    padding: 0 20px 20px;
+}
+
+footer{
+    background-color: var(--bg-black);
+    height: 262px;
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a, a:hover{
+    text-decoration: none;
+    color: unset;
+}
+
+.footer-link-instagran{
+    padding-top: 60px;
+    display: flex;
+}
+
+.footer-link-instagran a{
+    display: flex;
+    align-items: center;
+}
+
+.footer-link-instagran img{
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.footer-link-twitter{
+    display: flex;
+}
+
+.footer-link-twitter a{
+    display: flex;
+    align-items: center;
+}
+
+.footer-link-twitter img{
+    padding-right: 10px;
+    padding-top: 5px;
+    
+}
+
+.container-footer{
+    align-items: center;
+    padding-top: 30px;
+}
+
+.footer-adress{
+    display: flex;
+    justify-content: center;
+}
